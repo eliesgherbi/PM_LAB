@@ -1,0 +1,35 @@
+[data]
+root_dir = "data"
+raw_dir = "data/raw"
+normalized_dir = "data/normalized"
+marts_dir = "data/marts"
+cache_dir = "data/cache"
+manifest_path = "data/manifest.duckdb"
+logs_dir = "data/logs"
+
+[api]
+gamma_base_url = "https://gamma-api.polymarket.com"
+data_api_base_url = "https://data-api.polymarket.com"
+clob_base_url = "https://clob.polymarket.com"
+timeout_s = 20
+max_retries = 3
+backoff_base_s = 0.5
+max_concurrency = 8
+
+[cache]
+default_ttl_s = 300
+market_ttl_s = 3600
+leaderboard_ttl_s = 3600
+orderbook_ttl_s = 30
+price_history_ttl_s = 3600
+
+[ingestion]
+liquid_market_min_24h_volume_usd = "5000"
+include_markets_resolving_within_days = 7
+orderbook_snapshot_interval_s = 300
+orderbook_max_concurrency = 8
+orderbook_per_market_timeout_s = 15
+
+[logging]
+level = "INFO"
+json = true

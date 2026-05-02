@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "source": "data_api",
+  "endpoint": "/trades",
+  "params": {"user": "0x1111111111111111111111111111111111111111", "limit": 100},
+  "requested_at": "2026-04-30T08:15:30Z",
+  "received_at": "2026-04-30T08:15:31Z",
+  "status_code": 200,
+  "payload": [
+    {
+      "proxyWallet": "0x1111111111111111111111111111111111111111",
+      "side": "BUY",
+      "asset": "123",
+      "conditionId": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "size": 10,
+      "price": 0.4,
+      "timestamp": 1777536930,
+      "title": "Will test pass?",
+      "slug": "will-test-pass",
+      "eventSlug": "tests",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "transactionHash": "0xtx"
+    }
+  ]
+}

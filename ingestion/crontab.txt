@@ -1,0 +1,7 @@
+# Example cron schedule for read-only snapshots.
+# Run from the repository root with the virtualenv activated.
+
+0 2 * * * pmi ingest metadata >> data/logs/metadata.log 2>&1
+15 2 * * * pmi ingest leaderboard >> data/logs/leaderboard.log 2>&1
+*/5 * * * * pmi ingest orderbook --once >> data/logs/orderbook.log 2>&1
+30 3 * * * pmi snapshots health >> data/logs/health.log 2>&1

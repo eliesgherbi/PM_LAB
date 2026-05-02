@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source": "gamma",
+  "endpoint": "/markets",
+  "params": {"limit": 1},
+  "requested_at": "2026-04-30T08:15:30Z",
+  "received_at": "2026-04-30T08:15:31Z",
+  "status_code": 200,
+  "payload": [
+    {
+      "id": "1",
+      "conditionId": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "question": "Will test pass?",
+      "slug": "will-test-pass",
+      "eventId": "10",
+      "eventSlug": "tests",
+      "category": "TECH",
+      "tags": [{"label": "Testing"}],
+      "outcomes": "[\"Yes\", \"No\"]",
+      "clobTokenIds": "[\"123\", \"456\"]",
+      "endDate": "2026-05-01T00:00:00Z",
+      "resolved": true,
+      "winningOutcome": "Yes",
+      "volume": "6000",
+      "liquidity": "1000",
+      "active": true,
+      "closed": false
+    }
+  ]
+}

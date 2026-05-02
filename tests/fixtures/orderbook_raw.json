@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "source": "clob",
+  "endpoint": "/book",
+  "params": {"token_id": "123"},
+  "requested_at": "2026-04-30T08:15:30Z",
+  "received_at": "2026-04-30T08:15:31Z",
+  "status_code": 200,
+  "payload": {
+    "market": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "asset_id": "123",
+    "timestamp": "1777536930",
+    "hash": "abc",
+    "bids": [{"price": "0.39", "size": "100"}, {"price": "0.38", "size": "25"}],
+    "asks": [{"price": "0.41", "size": "50"}, {"price": "0.42", "size": "25"}],
+    "min_order_size": "1",
+    "tick_size": "0.01",
+    "neg_risk": false,
+    "last_trade_price": "0.40"
+  }
+}

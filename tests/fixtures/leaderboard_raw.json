@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "source": "data_api",
+  "endpoint": "/v1/leaderboard",
+  "params": {"category": "OVERALL", "timePeriod": "MONTH", "orderBy": "PNL"},
+  "requested_at": "2026-04-30T08:15:30Z",
+  "received_at": "2026-04-30T08:15:31Z",
+  "status_code": 200,
+  "payload": [
+    {"rank": "1", "proxyWallet": "0x1111111111111111111111111111111111111111", "vol": 1000.5, "pnl": 123.45, "userName": "guru"}
+  ]
+}
